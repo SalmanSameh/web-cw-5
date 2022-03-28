@@ -25,7 +25,7 @@ if (grade >= 90 && grade <= 100){
 // using switch
 
 let grade_1 = 0
-var user = prompt("Enter your degree: ");
+var user = parselnt(prompt("Enter your degree: "));
 
 switch(user){
     case user >= 90 && user <= 100:
